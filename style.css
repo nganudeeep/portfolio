@@ -1231,3 +1231,10 @@ img { display: block; max-width: 100%; }
 
   .metric { flex-direction: row; justify-content: space-between; padding: 12px 20px; }
 }
+
+/* ── Extra: proj-links-row (two GitHub links side by side) ── */
+.proj-links-row {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
